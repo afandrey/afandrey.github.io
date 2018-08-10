@@ -7,8 +7,8 @@ TODO:
 
 
 Projekt att lägga in:
-- quiz (static) (fungerar enbart inte för att gh-pages körs med https och frågorna hämtas från http)
-- pwd (static)
+- quiz (static) (fungerar inte enbart för att gh-pages körs med https och frågorna hämtas från http. Kan användas för att visa responsiv design i alla fall.) OBS! uppdatera script filer i index.html
+- pwd (static) (fungerar snart) OBS! uppdatera script filer i index.html
 - web-api (länk till github)
 - whippetrace, live update (non-static)
 - chat (non-static?)
