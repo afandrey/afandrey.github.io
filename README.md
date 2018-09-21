@@ -1,3 +1,6 @@
-# afandrey.github.io
-
-Kör på localhost:4000: ´jekyll serve´
+# TODO
+- Gå igenom de olika färgerna
+- Gå igenom scss och html filer, ta bort det som ej används
+- Lägg in projekt
+- Lägg in "Om mig"
+- Fixa linkedin konto
