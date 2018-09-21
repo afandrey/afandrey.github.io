@@ -4,3 +4,6 @@
 - Lägg in projekt
 - Lägg in "Om mig"
 - Fixa linkedin konto
+
+# Development
+Använd kommandot ´jekyll serve´ för att köra igång på localhost:4000
