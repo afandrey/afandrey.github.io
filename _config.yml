@@ -1,2 +1,6 @@
 name: Alva Fandrey
 markdown: kramdown
+
+collections:
+  courses:
+    output: true

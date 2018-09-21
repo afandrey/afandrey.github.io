@@ -1,0 +1,53 @@
+---
+layout: default
+title: Utbildning
+permalink: /courses/
+---
+{% for course in site.courses %}
+    {% if course.state == "done" %}
+        {% capture total_credits %} {{ total_credits | plus: course.credits }} {% endcapture %}
+        {% capture total_done %} {{ total_done | plus: 1 }} {% endcapture %}
+    {% elsif course.state == "active" %}
+        {% capture total_active %} {{ total_active | plus: 1 }} {% endcapture %}
+    {% endif %}
+{% endfor %}
+
+{% assign ordered_courses = site.courses | sort: "code" %}
+
+<div class="content">
+
+    <h1 class="page-heading">{{page.title}}</h1>
+    <h2>Examen: Högskoleexamen med inriktning mot datavetenskap (utan b-uppsats)</h2>
+    <h2>Högskolepoäng: {{total_credits}}hp <span class="italic-note">gäller avklarade kurser</span></h2>
+
+    {% if total_active | size > 0 %}
+    <h2>{{total_active}}aktiva kurser</h2>
+    <ul class="post-list">
+        {% for course in ordered_courses %}
+            {% if course.state == "active" %}
+                <li>
+                    <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
+                    <div class="course-school">{{course.school}}</div>
+                    <div class="course-code"><a href="{{ course.url | prepend: course.baseurl }}">{{course.code}}</a></div>
+                    <div class="course-credits">{{course.credits}}hp</div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2>{{total_done}}avklarade kurser</h2>
+    <ul class="post-list">
+        {% for course in ordered_courses %}
+            {% if course.state == "done" %}
+                <li>
+                  <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
+                  <div class="course-school">{{course.school}}</div>
+                  <div class="course-code"><a href="{{ course.url | prepend: course.baseurl }}">{{course.code}}</a></div>
+                  <div class="course-credits">{{course.credits}}hp</div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>
