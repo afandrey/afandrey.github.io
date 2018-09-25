@@ -90,15 +90,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $orange-color-dark;
+    color: $green-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($orange-color-dark, 5%);
+        color: $green-color;
     }
 
     &:hover {
-        color: $accent-color;
+        color: $green-color-dark;
         text-decoration: underline;
     }
 }
@@ -198,7 +198,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $accent-color;
+            fill: $text-color;
         }
     }
 }
@@ -209,5 +209,5 @@ pre {
 .italic-note {
     font-size: 9pt;
     font-style: italic;
-    color: $orange-color-dark;
+    color: $green-color-dark;
 }
