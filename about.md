@@ -4,6 +4,8 @@ title: Om Mig
 permalink: /about/
 ---
 
+![profilepic](/files/images/profile.jpg){: .rounded-img }
+
 Mitt namn är Alva och jag bor i Kalmar tillsammans med sambo och vår hund. Jag studerar just nu till webbprogrammerare på Linnéuniversitetet och har endast två kurser kvar till examen.
 
 Jag har alltid varit väldigt intresserad av teknik och började med att göra lite enklare sidor med HTML och CSS. Först när jag påbörjade min utbildning på universitetet testade jag programmering. Något som jag väldigt snabbt fastnade för och insåg att jag vill jobba med. 
