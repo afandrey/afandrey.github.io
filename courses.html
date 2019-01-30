@@ -22,8 +22,29 @@ permalink: /courses/
 
     <h2>{{total_done}}avklarade kurser</h2>
     <ul class="post-list">
+        <h3>Årskurs 1</h3>
         {% for course in ordered_courses %}
-            {% if course.state == "done" %}
+            {% if course.state == "done" and course.year == 1 %}
+                <li>
+                  <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }} ({{course.code}})</a>
+                  <div class="course-school">{{course.school}}</div>
+                  <div class="course-credits">{{course.credits}}hp</div>
+                </li>
+            {% endif %}
+        {% endfor %}
+        <h3>Årskurs 2</h3>
+        {% for course in ordered_courses %}
+            {% if course.state == "done" and course.year == 2 %}
+                <li>
+                  <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }} ({{course.code}})</a>
+                  <div class="course-school">{{course.school}}</div>
+                  <div class="course-credits">{{course.credits}}hp</div>
+                </li>
+            {% endif %}
+        {% endfor %}
+        <h3>Fristående kurser</h3>
+        {% for course in ordered_courses %}
+            {% if course.state == "done" and course.year == 0 %}
                 <li>
                   <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }} ({{course.code}})</a>
                   <div class="course-school">{{course.school}}</div>
@@ -32,5 +53,4 @@ permalink: /courses/
             {% endif %}
         {% endfor %}
     </ul>
-
 </div>

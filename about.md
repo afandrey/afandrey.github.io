@@ -6,10 +6,8 @@ permalink: /about/
 
 ![profilepic](/files/images/profile.jpg){: .rounded-img }
 
-Mitt namn är Alva och jag bor i Kalmar tillsammans med sambo och vår hund. Jag studerar just nu till webbprogrammerare på Linnéuniversitetet och har endast två kurser kvar till examen.
+Mitt namn är Alva, jag är 23 år och jag har nyligen flyttat tillbaka till Bergkvara med min sambo och vår hund. Just nu spenderas den största delen av fritiden till att renovera vårat hus. När det är lite varmare väder spenderas mycket av fritiden åt att träna vår hund som vi tävlar med i Whippetrace. Just nu studerar jag till Webbprogrammerare på Linnéuniversitetet i Kalmar och tar examen i mars 2019.
 
-Jag har alltid varit väldigt intresserad av teknik och började med att göra lite enklare sidor med HTML och CSS. Först när jag påbörjade min utbildning på universitetet testade jag programmering. Något som jag väldigt snabbt fastnade för och insåg att jag vill jobba med. 
+På gymnasiet läste jag Bageri/Konditori, men efter att ha jobbat med det under en sommar insåg jag att detta inte var något jag kunde fortsätta med då jag fick eksem på mina händer. Jag jobbade på OKQ8 i Torsås under 2 år medan jag funderade på vad jag ville göra. När jag bläddrade i Linnéuniversitetets programkatalog fastnade jag genast för programmet "Webbprogrammerare" eftersom teknik alltid har varit ett stort intresse hos mig och därför bestämde jag mig för att söka in.  
 
-När det kommer till programmering så föredrar jag JavaScript, men har även testat på PHP och C# under min utbildning.
-
-Förutom mitt intresse för teknik så ägnas mycket av fritiden åt vår hund som vi tävlar med i Whippetrace. Annars ägnar jag gärna min fritid till att titta på ishockey och speedway samt till att umgås med vänner och familj.
+Under utbildningen har vi mest programmerat i JavaScript, men det har också blivit lite Java, C# och PHP. Dock är det JavaScript jag känner mig mest bekväm med och därför helst arbetar med, men jag ser det inte som något problem att lära mig mer inom andra programspråk då jag alltid haft väldigt lätt för att lära. 

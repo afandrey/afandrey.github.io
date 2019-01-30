@@ -207,12 +207,13 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    display: block;
 
     > li {
         margin-bottom: $spacing-unit;
         margin-right: $spacing-unit;
         width: 230px;
-        height: 130px;
+        height: 110px;
         display: inline-block;
         float: left;
         padding: 10px;
@@ -268,7 +269,7 @@
 }
 
 .rounded-img {
-    width: 60%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     display: block;
